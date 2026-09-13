@@ -15,11 +15,30 @@ Problem Statement:
         there on the previous day.
 """
 
-# Here is one possible solution:
-bill_thickness = 0.11 * 0.001 # Meters (0.11 mm)
-sears_height = 442 # Height (meters)
-num_bills = 1
-day = 1
+# # Here is one possible solution:
+# bill_thickness = 0.11 * 0.001 # Meters (0.11 mm)
+# sears_height = 442 # Height (meters)
+# num_bills = 1
+# day = 1
+
+# while num_bills * bill_thickness < sears_height:
+#     print(day, num_bills, num_bills * bill_thickness)
+#     day = day + 1
+#     num_bills = num_bills * 2
+
+# print('Number of days', day)
+# print('Number of bills', num_bills)
+# print('Final height', num_bills * bill_thickness)
+
+
+
+### Exercise 1.6: Debugging
+# sears.py
+
+bill_thickness = 0.11 * 0.001    # Meters (0.11 mm)
+sears_height   = 442             # Height (meters)
+num_bills      = 1
+day            = 1
 
 while num_bills * bill_thickness < sears_height:
     print(day, num_bills, num_bills * bill_thickness)
@@ -29,3 +48,11 @@ while num_bills * bill_thickness < sears_height:
 print('Number of days', day)
 print('Number of bills', num_bills)
 print('Final height', num_bills * bill_thickness)
+
+
+###
+# which line is the error: Line 45
+# What is the error: NameError
+# Fix error: Error fixed
+# Run program successfully: Program ran successfully.
+###
